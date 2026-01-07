@@ -1,0 +1,16 @@
+{
+  "task": "multi_step_math_reasoning",
+  "description": "Prompts designed to elicit multi-step numerical reasoning and expose intermediate logical errors.",
+  "examples": [
+    {
+      "id": "math_001",
+      "question": "A store offers a 20% discount on an item priced at $80. After the discount, a 10% sales tax is applied. What is the final price?",
+      "expected_answer": 70.4
+    },
+    {
+      "id": "math_002",
+      "question": "If 3 machines produce 12 parts in 6 hours, how many parts will 5 machines produce in 10 hours assuming equal rates?",
+      "expected_answer": 100
+    }
+  ]
+}
