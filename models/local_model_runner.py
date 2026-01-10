@@ -5,6 +5,7 @@ Supports offline evaluation and reproducibility.
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import torch
 
 
 def load_model(model_name: str):
