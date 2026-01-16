@@ -6,7 +6,6 @@ This script focuses on reproducible prompt execution and structured logging.
 import json
 import os
 from typing import Dict
-
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -27,6 +26,7 @@ def run_prompt(prompt: str, model: str = "gpt-4o-mini") -> Dict:
         "prompt": prompt,
         "response": response.choices[0].message.content
     }
+
 
 
 if __name__ == "__main__":
